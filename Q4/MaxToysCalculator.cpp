@@ -6,6 +6,8 @@
 // ce fichier contient les definitions des methodes de la classe MaxToysCalculator
 // this file contains the definitions of the methods of the MaxToysCalculator class
 
+// Tarik Hireche | 202 301 89
+
 
 using namespace std;
 
