@@ -13,6 +13,16 @@ CareerCalculator::CareerCalculator()
 }
 
 bool CareerCalculator::CalculateMaxCareer(const vector<int>& Steps) {
-    // Completer ici
-    return false;
+    int n = Steps.size();
+    int maxReachableIdx = 0;
+    int i = 0;
+
+    while (i <= maxReachableIdx) { // Our greedy decision making process
+      //We always choose the maximum possible reach at each step. Always choosing a local optimum.
+        maxReachableIdx = max(maxReachableIdx, i + Steps[i]);
+        if (maxReachableIdx >= n - 1) return true; // Reached or exceeded the last index, optimal solution found.
+        i++;
+    }
+
+    return false; // If we exit, we couldn't reach the last index.
 }
