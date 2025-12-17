@@ -1,5 +1,7 @@
 # 📊 Algorithm Analysis (Asymptotic Notation & Recurrences)
 
+![C++](https://img.shields.io/badge/Language-C++-red?style=for-the-badge\&logo=prolog)
+![Python](https://img.shields.io/badge/Language-Python-green?style=for-the-badge\&logo=prolog)
 ![Course](https://img.shields.io/badge/Course-IFT2125-blue?style=for-the-badge)
 ![University](https://img.shields.io/badge/University-UdeM-navy?style=for-the-badge)
 
